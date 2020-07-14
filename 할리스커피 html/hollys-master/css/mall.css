@@ -1,0 +1,22 @@
+
+    .banner{
+      padding: 20px 20px 100px 20px;
+    }
+    .banner>h2{
+      margin-bottom: 20px;
+      font-weight: normal;
+      font-weight: normal;
+      font-size: 24px;
+      color: #b5121b;
+    }
+    .banner>div{
+      margin-bottom: 10px;
+
+    }
+    
+    .banner>div>a>img{
+      width: 440px;
+      
+
+    }
+

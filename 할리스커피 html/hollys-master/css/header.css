@@ -1,0 +1,31 @@
+/* 레퍼 */
+.wrap{
+  width:480px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:'Noto Sans KR';
+}
+
+/* 헤더 */
+.header{
+  width:480px;
+  height:50px;
+  background-color:#b5121b;
+}
+.title{
+  width: 438px;
+}
+h1{
+  text-align:center;
+}
+h1>a{
+  font-family:'Roboto';
+  font-weight:bold;
+  font-size:30px;
+  color:#ffffff;
+}
+.main_nav{
+  margin-right:20px;
+  margin-top:14px;
+}
+

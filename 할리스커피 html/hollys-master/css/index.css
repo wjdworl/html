@@ -1,0 +1,93 @@
+
+    
+    /* 퀵메뉴 */
+    .quick_menu{
+      height:100px;
+      background-color:#ffffff;
+    }
+    .quick_menu>div{
+      width:95px;
+      height:100px;
+      margin-left:20px;
+    }
+    .quick_menu img{
+      margin-top:24px;
+    }
+    .quick_menu h2{
+      text-align:center;
+    }
+    .quick_menu h2 a{
+      font-family:'Roboto';
+      font-size:12px;
+      color:#666666;
+    }
+
+
+    .service{
+      clear:both;
+      background-color:#ffffff;
+    }
+    .service>div{
+      position:relative;
+      margin-bottom:10px;
+    }
+    .service>.svc03{
+      margin-bottom:0;
+    }
+    .service>div>.over_txt{
+      position:absolute;
+      left:20px;
+      top:33px;
+    }
+    .service>.svc02>.over_txt,
+    .service>.svc03>.over_txt{
+      top:20px;
+    }
+    .svc_tit p{
+      margin-bottom:16px;
+      font-size:30px;
+      color:#ffffff;
+    }
+    .svc_tit p span,.svc_txt p span{
+      font-family:'Roboto';
+    }
+    .svc_txt p{
+      font-size:18px;
+      line-height:24px;
+      color:#ffffff;
+    }
+
+    /* notice section*/
+    .notice{
+      height:100px;
+      padding-left:20px;
+      padding-right:20px;
+      background-color:#ffffff;
+    }
+
+    .second_li{
+      clear:both;
+    }
+    .notice_top_left{
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:14px;
+      color:#333333;
+    }
+    .notice_top_right>a{
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:14px;
+      color:#b5121b;
+    }
+    .notice_bottom_left>a,
+    .notice_bottom_right>a{
+      font-size:14px;
+      color:#999;
+    }
+    .notice_tit{
+      padding-top:24px;
+    }
+    .notice_txt{
+      padding-top:10px;
+    }
