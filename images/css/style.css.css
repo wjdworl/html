@@ -1,0 +1,302 @@
+    /* CSS Reset */
+    *{margin:0; border:0; padding: 0;list-style:none;}
+    .wrap{width:640px;margin:0 auto;}
+
+    /* header */
+    .header{
+      height:70px;
+      }
+    .header>.logo>img{
+      margin-top:19px;
+      margin-left:9px;
+    }
+    .header>.logo>img:nth-child(2){
+      float:right;
+      margin-right:12px;
+      margin-top:23px;
+    }
+    .header>.logo>p{
+      display: inline;
+      text-align:center;
+    }  
+    .header_left{
+      float: left;
+      margin-top:19px;
+      margin-left:9px;
+     }
+    .header_left>p{
+      font-size:24px;
+      font-family:'noto sans kr';
+      font-weight:bold;
+      margin-left:8px;
+      margin-top:0px;
+      color:#0e347e;
+      position:absolute;
+      display: inline-block;
+    }
+    .header_right{
+      float:right;
+      margin-right:12px;
+      margin-top:23px;}
+
+      /* slider */
+    .slider01{
+      width:640px;
+      height:200px;
+      margin-bottom:100px;}
+
+    /* main_banner */
+    .main_banner01>img{          
+     height:200px;
+    }
+
+    /* coffee_story */
+    .coffee_story{
+      position:relative;
+    } 
+    .coffee_story>.coffee_story_block>ul{
+      position: relative;
+    }
+    .coffee_story>.coffee_story_block>ul>li{
+      position:absolute;
+      font-size:24px;
+      left:20px;
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(1){
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:14px;
+      margin-top:-258px;
+      color:#564e00;      
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(2){
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:56px;
+      margin-top:-228px;
+      color:#0e347e;
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(3){
+      font-family:'Noto Sans KR';
+      font-weight:Medium;
+      font-size:18px;
+      margin-top:-152px;
+    } 
+
+    /* fresh_coffee */
+    .fresh_coffee{
+      position:relative;    
+    }
+    .fresh_coffee p{
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      color:#6b4d30;
+      position: absolute;
+      top:27px;
+      left:12px;
+    }
+
+    /* various_beverage */
+    .various_beverage{
+      position: relative;
+    }
+    .various_beverage>p{
+      font-size:24px;
+      font-weight:bold;
+      font-family:'Roboto';
+      color:#93a03d;
+      position:absolute;
+      top: 27px;
+      left: 12px;
+    }
+
+    /* sweet_paiks_ccino */
+    .sweet_paiks_ccino{
+      position:relative;
+    }
+    .sweet_paiks_ccino>p{
+      position:absolute;
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 27px;
+      left: 12px;
+      color: #f1ae1d;
+    }
+
+    /* tasty_ice_cream */
+    .tasty_ice_cream{
+      position: relative;
+    }
+    .tasty_ice_cream>p{
+      position:absolute;
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 27px;
+      left: 12px;
+      color:#f1ae1d;
+    }
+
+    /* franchise_store */
+    .franchise_store{
+      position: relative;
+      width: 640px;
+      height:295px;
+      
+    }
+    .franchise_store>.box01{
+      width:302px;
+      height:291px;
+      border:2px solid #0e347e;
+      float: left;
+    }
+    .franchise_store>.box01>img{
+      position:absolute;
+      width:302px;
+      height:214px;
+      top:77px;
+    }
+    .franchise_store>.box02{
+      
+      width:302px;
+      height:291px;
+      border:2px solid #0e347e;
+      float:right;
+    }
+    .franchise_store>.box03{
+      position: absolute;
+      width:263px;
+      height:34px;
+      border:2px solid #0e347e;
+      float:right;
+      top:213px;
+      left:345px;
+    }
+    .franchise_store>.box03>p{
+      position: absolute;
+      margin-top:8.5px;
+      left:10px;
+      font-family:'Roboto';
+      font-size:14px;
+      color:#757575;
+    }
+    .franchise_store>.box03>.zom01{
+      position: absolute;
+      float: right;
+      left:235px;
+      top:7px;
+    }
+    .franchise_store>div>.f{
+      position:absolute;
+      font-size:34px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 17px;
+      left: 29px;
+      color:#0e347e;
+    }
+    .franchise_store>div>.s{
+      position:absolute;
+      font-size:34px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 17px;
+      left: 343px;
+      color:#0e347e;
+    }
+    .franchise_store>div>.txt{
+      position:absolute;
+      font-size:14px;
+      font-family:'Noto Sans KR'; 
+      font-weight:Medium;
+      top:61px;
+      left: 29px;
+      color:#202020;
+    }
+    .franchise_store>div>.txt2{
+      position:absolute;
+      font-size:14px;
+      font-family:'Noto Sans KR';
+      font-weight:Medium;
+      top: 61px;
+      left: 343px;
+      color:#202020;
+    }
+
+    /* paiks_coffee_sns */
+    .paiks_coffee_sns{
+      width:640px;
+      height:341px;
+      clear: both;
+      position: relative;
+    }
+    .paiks_coffee_sns>.back{
+      position:absolute;
+      font-size:30px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 91px;
+      left: 181px;
+      color:#202020;
+    }
+    .paiks_coffee_sns>.back1{
+      position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 170px;
+      color:#999999;
+    }
+    .paiks_coffee_sns>.back2{  position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 250px;
+      color:#999999;}
+    .paiks_coffee_sns>.back3{  position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 374px;
+      color:#999999;}
+    .son{position:absolute;;
+      width:96px;
+      height:85px;
+      border-top:1px solid #0e347e;
+      top:184px;
+      left:272px;
+     }
+     .paiks_coffee_sns>.son>.sns01{
+       position: absolute;
+       float:right;
+       top:27px;
+     }
+     .paiks_coffee_sns>.son>.sns02{
+      position: absolute;
+       float:right;
+       left:65px;
+       top:27px;
+     }
+
+     /* footer */
+    .footer{
+      width:640px;
+      height:409px;
+      text-align:center;    
+      }  
+    .footer>p{
+      font-family:'Noto Sans KR';
+      font-size:16px;
+      line-height:27px;
+      color:#262626;
+      }
+ 
