@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 -->
+  <link rel="stylesheet" href="./css.css">
+  <title>빽다방</title>
+  <style>
+    *{margin:0; border:0; padding: 0;list-style:none;}
+    .wrap{width:640px;margin:0 auto;}
+
+    /* header */
+    .header{
+      height:70px;
+      }
+    .header>.logo>img{
+      margin-top:19px;
+      margin-left:9px;
+    }
+    .header>.logo>img:nth-child(2){
+      float:right;
+      margin-right:12px;
+      margin-top:23px;
+    }
+    .header>.logo>p{
+      display: inline;
+      text-align:center;
+    }  
+    .header_left{
+      float: left;
+      margin-top:19px;
+      margin-left:9px;
+     }
+    .header_left>p{
+      font-size:24px;
+      font-family:'noto sans kr';
+      font-weight:bold;
+      margin-left:8px;
+      margin-top:0px;
+      color:#0e347e;
+      position:absolute;
+      display: inline-block;
+    }
+    .header_right{
+      float:right;
+      margin-right:12px;
+      margin-top:23px;}
+
+      /* slider */
+    .slider01{
+      width:640px;
+      height:200px;
+      margin-bottom:100px;}
+
+    /* main_banner */
+    .main_banner01>img{          
+     height:200px;
+    }
+
+    /* coffee_story */
+    .coffee_story{
+      position:relative;
+    } 
+    .coffee_story>.coffee_story_block>ul{
+      position: relative;
+    }
+    .coffee_story>.coffee_story_block>ul>li{
+      position:absolute;
+      font-size:24px;
+      left:20px;
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(1){
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:14px;
+      margin-top:-258px;
+      color:#564e00;      
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(2){
+      font-family:'Roboto';
+      font-weight:bold;
+      font-size:56px;
+      margin-top:-228px;
+      color:#0e347e;
+    }
+    .coffee_story>.coffee_story_block>ul>li:nth-of-type(3){
+      font-family:'Noto Sans KR';
+      font-weight:Medium;
+      font-size:18px;
+      margin-top:-152px;
+    } 
+
+    /* fresh_coffee */
+    .fresh_coffee{
+      position:relative;    
+    }
+    .fresh_coffee p{
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      color:#6b4d30;
+      position: absolute;
+      top:27px;
+      left:12px;
+    }
+
+    /* various_beverage */
+    .various_beverage{
+      position: relative;
+    }
+    .various_beverage>p{
+      font-size:24px;
+      font-weight:bold;
+      font-family:'Roboto';
+      color:#93a03d;
+      position:absolute;
+      top: 27px;
+      left: 12px;
+    }
+
+    /* sweet_paiks_ccino */
+    .sweet_paiks_ccino{
+      position:relative;
+    }
+    .sweet_paiks_ccino>p{
+      position:absolute;
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 27px;
+      left: 12px;
+      color: #f1ae1d;
+    }
+
+    /* tasty_ice_cream */
+    .tasty_ice_cream{
+      position: relative;
+    }
+    .tasty_ice_cream>p{
+      position:absolute;
+      font-size:24px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 27px;
+      left: 12px;
+      color:#f1ae1d;
+    }
+
+    /* franchise_store */
+    .franchise_store{
+      position: relative;
+      width: 640px;
+      height:295px;
+      
+    }
+    .franchise_store>.box01{
+      width:302px;
+      height:291px;
+      border:2px solid #0e347e;
+      float: left;
+    }
+    .franchise_store>.box01>img{
+      position:absolute;
+      width:302px;
+      height:214px;
+      top:77px;
+    }
+    .franchise_store>.box02{
+      
+      width:302px;
+      height:291px;
+      border:2px solid #0e347e;
+      float:right;
+    }
+    .franchise_store>.box03{
+      position: absolute;
+      width:263px;
+      height:34px;
+      border:2px solid #0e347e;
+      float:right;
+      top:213px;
+      left:345px;
+    }
+    .franchise_store>.box03>p{
+      position: absolute;
+      margin-top:8.5px;
+      left:10px;
+      font-family:'Roboto';
+      font-size:14px;
+      color:#757575;
+    }
+    .franchise_store>.box03>.zom01{
+      position: absolute;
+      float: right;
+      left:235px;
+      top:7px;
+    }
+    .franchise_store>div>.f{
+      position:absolute;
+      font-size:34px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 17px;
+      left: 29px;
+      color:#0e347e;
+    }
+    .franchise_store>div>.s{
+      position:absolute;
+      font-size:34px;
+      font-family:'Roboto';
+      font-weight:bold;
+      top: 17px;
+      left: 343px;
+      color:#0e347e;
+    }
+    .franchise_store>div>.txt{
+      position:absolute;
+      font-size:14px;
+      font-family:'Noto Sans KR'; 
+      font-weight:Medium;
+      top:61px;
+      left: 29px;
+      color:#202020;
+    }
+    .franchise_store>div>.txt2{
+      position:absolute;
+      font-size:14px;
+      font-family:'Noto Sans KR';
+      font-weight:Medium;
+      top: 61px;
+      left: 343px;
+      color:#202020;
+    }
+
+    /* paiks_coffee_sns */
+    .paiks_coffee_sns{
+      width:640px;
+      height:341px;
+      clear: both;
+      position: relative;
+    }
+    .paiks_coffee_sns>.back{
+      position:absolute;
+      font-size:30px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 91px;
+      left: 181px;
+      color:#202020;
+    }
+    .paiks_coffee_sns>.back1{
+      position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 170px;
+      color:#999999;
+    }
+    .paiks_coffee_sns>.back2{  position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 250px;
+      color:#999999;}
+    .paiks_coffee_sns>.back3{  position:absolute;
+      font-size:16px;
+      line-height:24px;
+      font-family:'Noto Sans KR';
+      font-weight:bold;
+      top: 141px;
+      left: 374px;
+      color:#999999;}
+    .son{position:absolute;;
+      width:96px;
+      height:85px;
+      border-top:1px solid #0e347e;
+      top:184px;
+      left:272px;
+     }
+     .paiks_coffee_sns>.son>.sns01{
+       position: absolute;
+       float:right;
+       top:27px;
+     }
+     .paiks_coffee_sns>.son>.sns02{
+      position: absolute;
+       float:right;
+       left:65px;
+       top:27px;
+     }
+
+     /* footer */
+    .footer{
+      width:640px;
+      height:409px;
+      text-align:center;    
+      }  
+    .footer>p{
+      font-family:'Noto Sans KR';
+      font-size:16px;
+      line-height:27px;
+      color:#262626;
+      }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+          auto:true,
+          speed:500,
+      });
+    });
+
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="logo">
+        <div class="header_left">
+          <img src="./images/img01_03.png" alt="이미지1">
+          <p>빽다방</p>
+        </div>
+        <div class="header_right">
+          <img src="./images/img01_06.png" alt="햄버거">
+        </div>
+      </div>
+    </div>
+    <div class="main_banner">
+      <div class="slider">
+        <div class="slider01"><img src="./images/main_01.png" alt="메인01"></div>
+        <div class="slider02"><img src="./images/main_02.png" alt="메인02"></div>
+        <div class="slider03"><img src="./images/main_03.png" alt="메인03"></div>
+        <div class="slider04"><img src="./images/main_04.png" alt="메인04"></div>
+        <div class="slider05"><img src="./images/main_05.png" alt="메인05"></div>
+        <div class="slider06"><img src="./images/main_06.png" alt="메인06"></div>
+      </div>
+    </div>
+    <div class="coffee_story">
+      <div class="coffee_story_block">
+         <ul>
+          <img src="./images/paiks_11.png" alt="메인01">                
+          <li>The Finest Quality Coffee Plants</li>
+          <li>PAIK'S COFFEE STORY</li>
+          <li>균형잡힌 바디감으로 긴여운을 남기는 빽다방 커피를 만나보세요.</li>
+          
+         </ul>
+      </div>
+    </div>   
+    <div class="fresh_coffee">      
+      <img src="./images/paiks_12.png" alt="메인02">
+        <p>FRESH <br>
+      COFFEE</p>   
+    </div>
+    <div class="various_beverage">
+      <img src="./images/paiks_14.png" alt="메인03">
+      <p>VARIOUS <br>
+      BEVERAGE</p>   
+    </div>  
+    <div class="sweet_paiks_ccino">
+        <img src="./images/paiks_15.png" alt="메인04">
+        <p>SWEET <br>
+        PAIK'S CCINO</p>   
+    </div>
+    <div class="tasty_ice_cream"> 
+        <img src="./images/paiks_16.png" alt="메인05">
+        <p>
+          TASYY <br>
+          ICE CREAM/ <br>
+          DESSERT
+        </p>      
+    </div>
+    <div class="franchise_store">
+        <div class="box01">
+          <img src="./images/FRAINCHISE-01.png" alt="메인06">
+          <p class="f">FRANCHISE</p>
+          <p class="txt">빽다방 창업안내를 도와드리겠습니다.</p>
+        </div>
+        <div class="box02">          
+         <p class="s">STORE</p>
+          <p class="txt2">원하시는 지역의 매장을 검색해보세요!</p>  
+        </div>
+        <div class="box03">
+          <img class="zom01" src="./images/img01_14.png" alt="돋보기01">
+          <p>Find a store in Your area!</p>
+        </div>        
+    </div>
+    <div class="paiks_coffee_sns">
+      <div class="son">
+        <img class="sns01" src="./images/img03_03.png" alt="sns_01">
+        <img class="sns02" src="./images/img03_05.png" alt="sns_02"></div>     
+                   
+          <P class="back">PAIK'S COFFE SNS</P>
+          <p class="back1">#빽다방</p>
+          <p class="back2">#빽다방신메뉴</p>
+          <p class="back3">#빽다방이벤트</p>
+                             
+    </div>
+    <div class="footer">     
+        <img src="./images/footer_logo.png" alt="메인08">
+        <P class="1">(주)더본코리아</P>
+        <P class="2">사업자등록번호211-86-00870</P>
+        <P class="3">대표이사 백종원</P>
+        <P class="4">주소:서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층</P>
+        <P class="5">팩스:02-511-3864</P>
+        <P class="6">본사 대표전화:02-549-3864</P>
+        <P class="7">가맹상담전화:02-3447-0410</P>
+        <P class="8">고객센터:1544-2360</P>
+        <br ><br>
+        <p class="9">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>       
+    </div>
+  </div>
+
+      
+  </div>
+  
+</body>
+</html>
